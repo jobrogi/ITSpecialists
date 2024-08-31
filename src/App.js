@@ -5,7 +5,7 @@ import Services from "./Components/Services";
 
 function App() {
   return (
-    <div className="w-screen max-w-full max-h-full h-screen bg-black">
+    <div className="w-screen max-w-full max-h-full h-full bg-black">
       <Navbar />
 
       <LandingPage />

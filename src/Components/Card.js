@@ -26,8 +26,11 @@ function Card(props) {
 
         {/* <hr className="w-full"></hr> */}
       </div>
-      <div className="text-4xl flex flex-nowrap w-full justify-end p-5 items-end">
-        <i class="fa-solid fa-arrow-right"></i>
+      <div className="flex w-full justify-end p-5  ">
+        <button className="text-4xl w-fit flex-nowrap flex justify-end items-end gap-5">
+          <h1 className="">Learn More</h1>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </div>
   );
